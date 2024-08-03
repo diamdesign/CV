@@ -1,30 +1,86 @@
 {
     "name": "Fredrik Berglund",
-    "thumbnail": "https://picsum.photos/400/400",
-    "born": "1982-12-03",
+    "thumbnail": "./src/assets/fb.png",
+    "birthdate": "1982-12-03",
+    "gender": { "sv": "Man", "en": "Male" },
+    "native": { "sv": "Svensk", "en": "Swedish" },
+    "letter": {
+        "sv": {
+            "language": "Svenska",
+            "letter_header": "Hej!",
+            "text": "Jag hittade er på arbetsförmedlingen och är för tillfället arbetssökande. \n\n Har arbetat med webbutveckling i över 15 år och har stor erfarenhet av att bygga webbplatser och system. \n\n Arbetat mycket med HTML och CSS vilket är min expertis. Har även arbetat en del i React och nyligen lärt mig Next.js via en praktikplats. \n\n Jag är bosatt just nu i Stockholm men kan förflytta mig. Söker en anställning där jag kan arbeta distans då det funkar bäst för mig."
+        },
+        "en": {
+            "language": "English",
+            "letter_header": "Hi!",
+            "text": "I found you at the employment agency and am currently looking for work. \n\n Have worked with web development for over 15 years and have extensive experience in building websites and systems. \n\n Worked a lot with HTML and CSS which is my expertise. Have also worked a bit in React and recently learned Next.js via an internship. \n\n I currently live in Stockholm but can move. Looking for employment where I can work remotely as it works best for me."
+        }
+    },
     "email": "fredrik@diam.se",
-    "website": "https://diam.se",
-    "portfoliosite": "https://behance.net/diamdesign",
-    "resumesite": "https://diam.se/resume",
-    "programming": {
-        "data": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL", "React", "Node.js", "Next.js", "Vercel"],
+    "discord": "Fredrik777#3232",
+    "website": {
+        "data": "https://diam.se",
         "languages": {
             "sv": {
-                "header": "Programmering",
-                "text": "Jag har arbetat med webbutveckling i över 15 år och har stor erfarenhet av att bygga webbplatser och system. Jag har arbetat med många olika tekniker och språk."
+                "header": "Hemsida"
             },
             "en": {
-                "header": "Programming",
-                "text": "I have worked for sometime."
+                "header": "Website"
+            }
+        }
+    },
+    "portfolio": {
+        "data": "https://behance.net/diam",
+        "languages": {
+            "sv": {
+                "header": "Portfölj"
+            },
+            "en": {
+                "header": "Portfolio"
+            }
+        }
+    },
+    "resume": {
+        "data": "https://diam.se/resume",
+        "languages": {
+            "sv": {
+                "header": "Resume"
+            },
+            "en": {
+                "header": "Resume"
+            }
+        }
+    },
+    "github": {
+        "data": "https://github.com/diamdesign",
+        "languages": {
+            "sv": {
+                "header": "GitHub"
+            },
+            "en": {
+                "header": "GitHub"
+            }
+        }
+    },
+    "programming": {
+        "data": ["HTML", "CSS", "JavaScript", "jQuery", "React", "Node.js", "Next.js", "Git", "PHP", "MySQL"],
+        "languages": {
+            "sv": {
+                "header": "Programmering"
+            },
+            "en": {
+                "header": "Programming"
             }
         }
     },
     "systemadmin": {
-        "data": ["Windows", "Vercel", "Phpmyadmin"],
+        "data": ["Windows", "Vercel", "PHPmyadmin"],
         "languages": {
             "sv": {
-                "header": "Systemadministration",
-                "text": "Jag har arbetat med systemadministration i över 15 år och har stor erfarenhet av att bygga webbplatser och system. Jag har arbetat med många olika tekniker och språk"
+                "header": "Systemadministration"
+            },
+            "en": {
+                "header": "Systemadministration"
             }
         }
     },
@@ -32,57 +88,165 @@
         "data": ["Photoshop", "Illustrator", "InDesign", "After Effects", "Figma"],
         "languages": {
             "sv": {
-                "header": "Grafisk design",
-                "text": "Jag har arbetat med grafisk design i över 15 år och har stor erfarenhet av att bygga webbplatser och system. Jag har arbetat med många olika tekniker och språk"
+                "header": "Grafisk design"
+            },
+            "en": {
+                "header": "Graphic design"
             }
         }
     },
-    "lang": ["Swedish", "English"],
-    "driving": ["B", "Taxi"],
+    "lang": {
+        "data": ["Swedish", "English"],
+        "languages": {
+            "sv": {
+                "header": "Språk"
+            },
+            "en": {
+                "header": "Language"
+            }
+        }
+    },
+    "driving": {
+        "data": ["React", "B", "Taxi"],
+        "languages": {
+            "sv": {
+                "header": "Licenser"
+            },
+            "en": {
+                "header": "Licenses"
+            }
+        }
+    },
+
     "personal": {
         "sv": {
             "header": "Personligt",
-            "text": "Jag är en glad och positiv person som alltid är redo att hjälpa till. Jag är en duktig problemlösare och har lätt för att lära mig nya saker."
+            "text": "Jag är en glad och positiv person som alltid är redo att hjälpa till. Jag är en duktig problemlösare och har lätt för att lära mig nya saker. Jag kan vara den som leder eller den som bara gör jobbet klart. Har lång erfarenhet inom att ha eget företag och även ha kundkontakt och forma produkter utefter kunders egna önskemål."
         },
         "en": {
             "header": "Personal",
-            "text": "I am a happy and positive person who is always ready to help. I am good at solving problems and have an easy time learning new things."
+            "text": "I am a happy and positive person who is always ready to help. I am a good problem solver and it is easy for me to learn new things. I can be the one leading or the one just getting the job done. Has extensive experience in owning a company and also having customer contact and shaping products according to customers' own wishes."
         }
     },
     "experience": [
         {
-            "title": "Web Developer",
-            "company": "Diam",
+            "title": "Tech Lead, Internship",
+            "company": "Traino AB",
             "city": "Stockholm",
-            "start": "2010-01-01",
-            "end": "2021-12-31",
+            "start": "2024",
+            "end": "3 months",
             "description": {
-                "sv": "Webbutveckling och systemadministration.",
-                "en": "Web development and system administration."
+                "sv": "På Traino arbetade jag djupt med Next.js och PHP för att skapa grundlig backend och frontend för en ny webbapp inom träning.",
+                "en": "At Traino, I worked deeply with Next.js and PHP to create thorough backend and frontend for a new webapp in training."
             }
         },
         {
-            "title": "Web Developer",
-            "company": "Freelance",
-            "city": "San Diego",
-            "start": "2005-01-01",
-            "end": "2009-12-31",
+            "title": "Art Director/Full stack developer",
+            "company": "DIAM",
+            "city": "Freelance",
+            "start": "2012",
+            "end": "Ongoing",
             "description": {
-                "sv": "Webbutveckling och systemadministration.",
-                "en": "Web development and system administration."
+                "sv": "Startade DIAM 2011 för att frilansa extra. Har jobbat med flera olika företag. Mestadels design och frontend. 2023 började jag göra egna mindre spel projekt inkluderande backend.",
+                "en": "Started DIAM in 2011 to freelance extra. Have worked with several different companies. Mostly design and frontend. In 2023 I started making my own smaller game projects including the backend."
+            }
+        },
+        {
+            "title": "Webdesigner",
+            "company": "Aloq",
+            "city": "Östersund",
+            "start": "2017",
+            "end": "2018",
+            "description": {
+                "sv": "På Aloq gjorde jag web design, printade tavlor och gjorde mindre animeringar.",
+                "en": "At Aloq I did web design, printed paintings and made small animations."
+            }
+        },
+        {
+            "title": "Art Director",
+            "company": "SprinkleBit",
+            "city": "San Diego",
+            "start": "2013",
+            "end": "2015",
+            "description": {
+                "sv": "Designade grunden av hemsidan och appen.",
+                "en": "Designed the foundation of the website and app."
+            }
+        },
+        {
+            "title": "Designer",
+            "company": "Soluan Group",
+            "city": "Cyprus",
+            "start": "2008",
+            "end": "2013",
+            "description": {
+                "sv": "Web design och print design mestadels inom poker och casino.",
+                "en": "Web design and print design mostly within poker and casino."
+            }
+        },
+        {
+            "title": "Designer",
+            "company": "MGTRN",
+            "city": "Stockholm",
+            "start": "2006",
+            "end": "2008",
+            "description": {
+                "sv": "Web design, mycket olika kampanjer och flash spel. Jobbade mycket med Hammarby Fotboll och Hockey.",
+                "en": "Web design, very different campaigns and flash games. Worked a lot with Hammarby Football and Hockey."
             }
         }
     ],
-    "letter": {
-        "sv": {
-            "language": "Svenska",
-            "letter_header": "Hej!",
-            "letter": "Jag hittade er på arbetsförmedlingen och tycker att jag skulle passa bra hos er."
-        },
-        "en": {
-            "language": "English",
-            "letter_header": "Hello!",
-            "letter": "I found you on the job center and think I would fit well with you."
+    "education": {
+        "data": [
+            {
+                "title": "Frontend React",
+                "company": "Lexicon",
+                "city": "Distance",
+                "start": "2023",
+                "end": "6 months",
+                "description": {
+                    "sv": "HMTL, CSS, JavaScript, React och en del TypeScript.",
+                    "en": "HTML, CSS, JavaScript, React and some TypeScript."
+                }
+            },
+            {
+                "title": "Taxi",
+                "company": "Taxi school",
+                "city": "Östersund",
+                "start": "2018",
+                "end": "2 months",
+                "description": {
+                    "sv": "Grundlig utbildning i Taxi yrket.",
+                    "en": "Thorough training in the Taxi profession."
+                }
+            },
+            {
+                "title": "HTML/CSS",
+                "company": "Extra course",
+                "city": "Sweden",
+                "start": "2001",
+                "end": "3 months",
+                "description": {
+                    "sv": "Grundlig kurs i HTML och CSS.",
+                    "en": "Basic course in HTML and CSS."
+                }
+            },
+
+            {
+                "title": "Society/Technology",
+                "company": "Gymnasium",
+                "city": "Sweden",
+                "start": "1998",
+                "end": "2001",
+                "description": {
+                    "sv": "Elektronik, Samhäll, Teknik, C++, Kemi, Mattematik, CadCam, Svets, CNC.",
+                    "en": "Electronics, Society, Technology, C++, Chemistry, Mathematics, Cad Cam, Welding, CNC."
+                }
+            }
+        ],
+        "header": {
+            "sv": "Utbildning",
+            "en": "Education"
         }
     }
 }
