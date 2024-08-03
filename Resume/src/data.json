@@ -1,0 +1,88 @@
+{
+    "name": "Fredrik Berglund",
+    "thumbnail": "https://picsum.photos/400/400",
+    "born": "1982-12-03",
+    "email": "fredrik@diam.se",
+    "website": "https://diam.se",
+    "portfoliosite": "https://behance.net/diamdesign",
+    "resumesite": "https://diam.se/resume",
+    "programming": {
+        "data": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL", "React", "Node.js", "Next.js", "Vercel"],
+        "languages": {
+            "sv": {
+                "header": "Programmering",
+                "text": "Jag har arbetat med webbutveckling i över 15 år och har stor erfarenhet av att bygga webbplatser och system. Jag har arbetat med många olika tekniker och språk."
+            },
+            "en": {
+                "header": "Programming",
+                "text": "I have worked for sometime."
+            }
+        }
+    },
+    "systemadmin": {
+        "data": ["Windows", "Vercel", "Phpmyadmin"],
+        "languages": {
+            "sv": {
+                "header": "Systemadministration",
+                "text": "Jag har arbetat med systemadministration i över 15 år och har stor erfarenhet av att bygga webbplatser och system. Jag har arbetat med många olika tekniker och språk"
+            }
+        }
+    },
+    "graphics": {
+        "data": ["Photoshop", "Illustrator", "InDesign", "After Effects", "Figma"],
+        "languages": {
+            "sv": {
+                "header": "Grafisk design",
+                "text": "Jag har arbetat med grafisk design i över 15 år och har stor erfarenhet av att bygga webbplatser och system. Jag har arbetat med många olika tekniker och språk"
+            }
+        }
+    },
+    "lang": ["Swedish", "English"],
+    "driving": ["B", "Taxi"],
+    "personal": {
+        "sv": {
+            "header": "Personligt",
+            "text": "Jag är en glad och positiv person som alltid är redo att hjälpa till. Jag är en duktig problemlösare och har lätt för att lära mig nya saker."
+        },
+        "en": {
+            "header": "Personal",
+            "text": "I am a happy and positive person who is always ready to help. I am good at solving problems and have an easy time learning new things."
+        }
+    },
+    "experience": [
+        {
+            "title": "Web Developer",
+            "company": "Diam",
+            "city": "Stockholm",
+            "start": "2010-01-01",
+            "end": "2021-12-31",
+            "description": {
+                "sv": "Webbutveckling och systemadministration.",
+                "en": "Web development and system administration."
+            }
+        },
+        {
+            "title": "Web Developer",
+            "company": "Freelance",
+            "city": "San Diego",
+            "start": "2005-01-01",
+            "end": "2009-12-31",
+            "description": {
+                "sv": "Webbutveckling och systemadministration.",
+                "en": "Web development and system administration."
+            }
+        }
+    ],
+    "letter": {
+        "sv": {
+            "language": "Svenska",
+            "letter_header": "Hej!",
+            "letter": "Jag hittade er på arbetsförmedlingen och tycker att jag skulle passa bra hos er."
+        },
+        "en": {
+            "language": "English",
+            "letter_header": "Hello!",
+            "letter": "I found you on the job center and think I would fit well with you."
+        }
+    }
+}
