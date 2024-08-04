@@ -107,7 +107,7 @@
         }
     },
     "driving": {
-        "data": ["React", "B", "Taxi"],
+        "data": ["React", "B-Driver", "Taxi"],
         "languages": {
             "sv": {
                 "header": "Licenser"
