@@ -8,12 +8,12 @@
         "sv": {
             "language": "Svenska",
             "letter_header": "Hej!",
-            "text": "Jag hittade er på arbetsförmedlingen och är för tillfället arbetssökande. \n\n Har arbetat med webbutveckling i över 15 år och har stor erfarenhet av att bygga webbplatser och system. \n\n Arbetat mycket med HTML och CSS vilket är min expertis. Har även arbetat en del i React och nyligen lärt mig Next.js via en praktikplats. \n\n Jag är bosatt just nu i Stockholm men kan förflytta mig. Söker en anställning där jag kan arbeta distans då det funkar bäst för mig."
+            "text": "Jag är för tillfället arbetssökande. \n\n Har arbetat med webbutveckling i över 15 år och har stor erfarenhet av att bygga webbplatser och system. \n\n Arbetat mycket med HTML och CSS vilket är min expertis. Har även arbetat en del i React och nyligen lärt mig Next.js via en praktikplats. \n\n Jag är bosatt just nu i Stockholm men kan förflytta mig. Söker en anställning där jag kan arbeta distans då det funkar bäst för mig."
         },
         "en": {
             "language": "English",
             "letter_header": "Hi!",
-            "text": "I found you at the employment agency and am currently looking for work. \n\n Have worked with web development for over 15 years and have extensive experience in building websites and systems. \n\n Worked a lot with HTML and CSS which is my expertise. Have also worked a bit in React and recently learned Next.js via an internship. \n\n I currently live in Stockholm but can move. Looking for employment where I can work remotely as it works best for me."
+            "text": "I am currently looking for work. \n\n Have worked with web development for over 15 years and have extensive experience in building websites and systems. \n\n Worked a lot with HTML and CSS which is my expertise. Have also worked a bit in React and recently learned Next.js via an internship. \n\n I currently live in Stockholm but can move. Looking for employment where I can work remotely as it works best for me."
         }
     },
     "email": "fredrik@diam.se",
